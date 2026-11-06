@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jason Hughes | Backend Engineer</title>
+<meta name="description" content="Jason Oladipo Hughes: backend engineer, final-year Software Engineering student and founder of Migaki Studio in Abuja, Nigeria.">
+<meta property="og:title" content="Jason Hughes | Backend Engineer">
+<meta property="og:description" content="Backend engineer building AI, payment and campus systems. Founder of Migaki Studio.">
+<meta property="og:image" content="img/orion-site.webp">
+<link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#projects">Skip to projects</a>
+
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Jason Hughes, home">Jason Hughes</a>
+  <nav aria-label="Main">
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="btn btn-sm" id="term-open" aria-haspopup="dialog">Terminal</button>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Abuja, Nigeria</p>
+      <h1>I build the backends behind AI and payments.</h1>
+      <p class="lead">Final-year Software Engineering student and founder of Migaki Studio. I ship systems people use.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <button class="btn" id="term-open-2" aria-haspopup="dialog"><span class="mono">&gt;_</span> Open terminal</button>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="false">
+      <img class="shot shot-a" src="img/orion-site.webp" width="1400" height="875" alt="The Orion website: an AI support assistant that answers from your own documents with sources attached" fetchpriority="high">
+      <img class="shot shot-b" src="img/safespace-landing.webp" width="1086" height="540" alt="SafeSpace landing page showing a wellness risk score">
+    </div>
+  </section>
+
+  <section id="projects" class="sec">
+    <h2 class="sec-title">Selected projects</h2>
+    <p class="sec-sub">Screenshots are from the running apps. Source code for client and company work stays private.</p>
+
+    <article class="feature reveal">
+      <div class="feature-media">
+        <img src="img/orion-app.webp" width="1400" height="875" alt="Orion public website with a chat widget answering customer questions in English and Pidgin" loading="lazy">
+        <img src="img/orion-console.webp" width="1400" height="940" alt="Orion admin console showing role-aware knowledge collections" loading="lazy">
+      </div>
+      <div class="feature-body">
+        <h3>Orion</h3>
+        <p class="meta">AI product, live</p>
+        <p>An AI support assistant for businesses. It answers customers from your own documents on a website and on WhatsApp, in English or Pidgin, shows the sources it used, and checks who is allowed to see what.</p>
+        <ul class="chips"><li>RAG</li><li>Access control</li><li>WhatsApp</li><li>Web app</li></ul>
+        <a class="link" href="https://app.askorion.com.ng" target="_blank" rel="noopener">Open app.askorion.com.ng</a>
+      </div>
+    </article>
+
+    <article class="feature flip reveal">
+      <div class="feature-media single">
+        <img src="img/safespace-student.webp" width="1156" height="596" alt="SafeSpace student dashboard with daily check-in, appointments and counselor details" loading="lazy">
+      </div>
+      <div class="feature-body">
+        <h3>SafeSpace</h3>
+        <p class="meta">University platform, Nile University of Nigeria</p>
+        <p>A wellness and counselling platform for the psychology unit. Students take PHQ-9, GAD-7 and pulse check-ins and book sessions with crisis priority. Counsellors see risk trends. I led development of this one of seven systems shipped at the university.</p>
+        <ul class="chips"><li>React</li><li>TypeScript</li><li>FastAPI</li><li>PostgreSQL</li><li>JWT</li></ul>
+      </div>
+    </article>
+
+    <div class="bento">
+      <article class="tile t-eco reveal">
+        <img src="img/ecobuy.webp" width="1440" height="660" alt="EcoBuy home page: Every purchase impacts the planet" loading="lazy">
+        <div class="tile-body">
+          <h3>EcoBuy</h3>
+          <p>A marketplace where every product carries a carbon label and sustainability score, with badges for greener choices.</p>
+          <ul class="chips"><li>MongoDB</li><li>Express</li><li>React</li><li>Node</li></ul>
+        </div>
+      </article>
+      <article class="tile t-catsi reveal">
+        <img class="contain" src="img/catsi.webp" width="1200" height="847" alt="Catsi architecture: FastAPI, ARQ worker, Chroma vector store, BM25 index and a local Ollama model" loading="lazy">
+        <div class="tile-body">
+          <h3>Catsi</h3>
+          <p>A document chat assistant using hybrid vector and keyword search, reranking and a semantic cache, with a local LLM.</p>
+          <ul class="chips"><li>FastAPI</li><li>ChromaDB</li><li>Redis</li><li>Ollama</li></ul>
+        </div>
+      </article>
+      <article class="tile t-sched reveal">
+        <img src="img/scheduler.webp" width="1400" height="1081" alt="Gantt chart produced by the SRTF CPU scheduling simulation" loading="lazy">
+        <div class="tile-body">
+          <h3>CPU Scheduler Simulator</h3>
+          <p>Round Robin, SRTF and SJF on generated process data, with logs, metrics and Gantt charts.</p>
+          <ul class="chips"><li>Python</li><li>pandas</li><li>matplotlib</li></ul>
+        </div>
+      </article>
+      <article class="tile t-village reveal">
+        <img src="img/village.webp" width="1000" height="600" alt="Village onboarding screen: find your people, wherever you are" loading="lazy">
+        <div class="tile-body">
+          <h3>Village</h3>
+          <p>A campus community app front end: onboarding, interest-based villages, events and a manager dashboard.</p>
+          <ul class="chips"><li>React</li><li>Vite</li><li>Tailwind</li></ul>
+        </div>
+      </article>
+    </div>
+
+    <div class="also reveal">
+      <h3>Backend and cloud work</h3>
+      <div class="also-grid">
+        <div>
+          <h4>Darling Nice API</h4>
+          <p>A complete e-commerce backend: catalogue, cart, wishlist, orders, checkout and admin. JWT access and refresh tokens, role guards, rate limiting and HMAC-verified Paystack webhooks, documented in a full API guide.</p>
+          <ul class="chips"><li>Flask</li><li>SQLAlchemy</li><li>Paystack</li></ul>
+        </div>
+        <div>
+          <h4>Serverless email pipeline</h4>
+          <p>Incoming mail is received by SES, stored in S3, parsed by Lambda into DynamoDB, announced through SNS and queried through an API Gateway endpoint. No servers to run.</p>
+          <ul class="chips"><li>SES</li><li>S3</li><li>Lambda</li><li>DynamoDB</li><li>API Gateway</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="sec">
+    <h2 class="sec-title">Tech superpowers</h2>
+    <div class="skills">
+      <div class="skill s-main">
+        <h3>Python backends</h3>
+        <p>My strongest ground. APIs that stay correct under real traffic.</p>
+        <ul class="chips"><li>Python</li><li>FastAPI</li><li>Flask</li><li>Django</li><li>SQLAlchemy</li><li>Alembic</li></ul>
+      </div>
+      <div class="skill s-ai">
+        <h3>AI and RAG</h3>
+        <ul class="chips"><li>Retrieval-augmented generation</li><li>Vector search</li><li>Prompt engineering</li><li>Ollama</li><li>LLM tools</li></ul>
+      </div>
+      <div class="skill s-sec">
+        <h3>Security and payments</h3>
+        <ul class="chips"><li>JWT and refresh tokens</li><li>Role-based access</li><li>Rate limiting</li><li>Paystack</li><li>HMAC webhooks</li></ul>
+      </div>
+      <div class="skill s-cloud">
+        <h3>AWS</h3>
+        <ul class="chips"><li>Amplify</li><li>Lambda</li><li>S3</li><li>SES</li><li>DynamoDB</li><li>API Gateway</li></ul>
+      </div>
+      <div class="skill s-data">
+        <h3>Data</h3>
+        <ul class="chips"><li>PostgreSQL</li><li>MongoDB</li><li>SQLite</li><li>pandas</li></ul>
+      </div>
+      <div class="skill s-web">
+        <h3>Front end</h3>
+        <ul class="chips"><li>React</li><li>TypeScript</li><li>JavaScript</li><li>Tailwind</li><li>HTML and CSS</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="sec about">
+    <h2 class="sec-title">About me</h2>
+    <div class="about-grid">
+      <div class="prose">
+        <p>I am in the final year of a B.Sc. in Software Engineering at Nile University of Nigeria, graduating in 2027 with a 4.8 / 5.0 GPA. I like backend work most: clean APIs, careful security, and connecting them to payments and language models.</p>
+        <p>I am the sole founder of Migaki Studio, a technology company that helps African startups and small businesses build, deploy and sustain their products. We have built e-commerce platforms with Paystack payments, and I advise early-stage founders on architecture and priorities.</p>
+        <p>At university I led SafeSpace, a counselling platform that is one of seven real systems shipped for the campus.</p>
+      </div>
+      <dl class="stats">
+        <div><dt>4.8 / 5.0</dt><dd>GPA, B.Sc. Software Engineering</dd></div>
+        <div><dt>7</dt><dd>Campus systems shipped, SafeSpace led by me</dd></div>
+        <div><dt>321 / 400</dt><dd>Highest JAMB score in my school</dd></div>
+        <div><dt>Silver</dt><dd>Nigerian Sciences and Mathematics Olympiad, 3rd in Abuja</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="contact" class="sec contact">
+    <h2 class="sec-title">Let us talk</h2>
+    <p class="sec-sub">Open to internships, collaborations and founder conversations.</p>
+    <a class="big-mail" href="mailto:jasonhughes634@gmail.com">jasonhughes634@gmail.com</a>
+    <ul class="contact-list">
+      <li><span>Phone</span><a href="tel:+2347026100616">+234 702 610 0616</a></li>
+      <li><span>GitHub</span><a href="https://github.com/GenialSmileAdam" target="_blank" rel="noopener">github.com/GenialSmileAdam</a></li>
+      <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/jason-hughes-955852354" target="_blank" rel="noopener">Jason Hughes</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Jason Oladipo Hughes, <span id="yr"></span>. Hosted on AWS Amplify.</p>
+</footer>
+
+<button class="hint" id="hint" aria-haspopup="dialog">
+  <span class="mono">&gt;_</span> Try my terminal. Press <kbd>`</kbd>
+</button>
+
+<div id="term" class="term" role="dialog" aria-label="Interactive terminal" aria-modal="true" hidden>
+  <div class="term-bar"><span>jason@portfolio</span><button id="term-close" aria-label="Close terminal">Close</button></div>
+  <div id="term-out" class="term-out" tabindex="-1" aria-live="polite"></div>
+  <label class="term-in"><span aria-hidden="true">$</span><input id="term-input" autocomplete="off" spellcheck="false" aria-label="Terminal command"></label>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
