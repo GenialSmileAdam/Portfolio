@@ -24,6 +24,6 @@ const DATA = {
     ["github", "github.com/GenialSmileAdam", "https://github.com/GenialSmileAdam"],
     ["linkedin", "Jason Hughes", "https://www.linkedin.com/in/jason-hughes-955852354"]
   ],
-  aws: "This site is static files hosted on AWS Amplify Hosting (global CDN, HTTPS). Source is in a GitHub repo that Amplify builds from on every push.",
+  aws: "This site is static files hosted on AWS Amplify Hosting (global CDN, HTTPS). The code lives in a public GitHub repo (GenialSmileAdam/Portfolio). Region: eu-north-1.",
   mottos: ["Ship it, then make it better.", "Build for the people who will actually use it.", "Small APIs, clear contracts, honest errors.", "Make it work, make it right, make it secure."]
 };

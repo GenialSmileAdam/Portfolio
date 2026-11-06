@@ -1,0 +1,1 @@
+aws-cli/2.39.5 Python/3.14.8 Linux/7.0.5-200.nobara.fc43.x86_64 script-exe/x86_64.nobara.43

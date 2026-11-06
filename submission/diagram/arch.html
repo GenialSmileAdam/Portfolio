@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Architecture</title>
+<style>
+body{margin:0;background:#0d0e10;color:#eceeea;font:18px/1.45 system-ui,sans-serif;width:1400px;height:620px;padding:36px 40px;box-sizing:border-box}
+h1{margin:0 0 28px;font-size:28px;letter-spacing:-.02em}
+.row{display:flex;align-items:stretch;margin-bottom:34px}
+.b{flex:1;border:1px solid #3a3f46;border-radius:14px;background:#141619;padding:20px 24px}
+.b.aws{border-color:#a3e07a}.b h3{margin:0 0 6px;font-size:21px}.b p{margin:0;color:#a4a9b1;font-size:16px}
+.a{width:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#a3e07a;font:500 14px ui-monospace,monospace;text-align:center}
+.a span{font-size:34px;line-height:1}
+.cap{color:#9ba0a8;font:500 14px ui-monospace,monospace;margin:0 0 10px}
+</style></head><body>
+<h1>How the portfolio is built and hosted</h1>
+<p class="cap">PUBLISHING</p>
+<div class="row">
+ <div class="b"><h3>My laptop</h3><p>Static HTML, CSS and JavaScript. Coding agent and AWS CLI v2.</p></div>
+ <div class="a"><span>&rarr;</span>zip upload</div>
+ <div class="b aws"><h3>AWS Amplify Hosting</h3><p>eu-north-1 (Stockholm). HTTPS and a global CDN.</p></div>
+ <div class="a"><span>&rarr;</span>https</div>
+ <div class="b"><h3>Visitors</h3><p>Recruiters and judges on desktop or mobile.</p></div>
+</div>
+<p class="cap">TOOLING AND SOURCE</p>
+<div class="row">
+ <div class="b aws"><h3>aws login</h3><p>Browser sign-in gives the CLI short-lived credentials.</p></div>
+ <div class="a"><span>&rarr;</span>credentials</div>
+ <div class="b aws"><h3>Agent Toolkit for AWS</h3><p>AWS MCP Server and agent skills for my coding agent (us-east-1 service).</p></div>
+ <div class="a"><span>&nbsp;</span>and</div>
+ <div class="b"><h3>GitHub</h3><p>GenialSmileAdam/Portfolio holds the source.</p></div>
+</div>
+</body></html>
