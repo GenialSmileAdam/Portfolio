@@ -50,7 +50,7 @@ Evidence is in `aws-evidence/`: the Amplify app (`amplify-app.json`), the produc
 1. **Content first.** I went through my own projects and backups and picked what I could show publicly. Orion is represented only by its public site, https://app.askorion.com.ng. Campus One, Orion v2 and FinCare are not on the site at all.
 2. **Real screenshots, no mock-ups.** I ran the front ends locally where I could (EcoBuy, Village) and captured them with headless Chrome. For SafeSpace I used screenshots saved earlier that show only demo data, because the live app sits behind campus sign-in.
 3. **Design.** My first version looked generic, so I redesigned it with a stricter brief: one accent colour, Geist type, a split hero showing real product screenshots, a bento grid with varied cell sizes, and no decorative gimmicks. Motion is limited to a scroll reveal and the terminal nudge, and both switch off for visitors who prefer reduced motion.
-4. **Performance basics.** Self-hosted variable fonts, WebP images (about 420 KB for all images), explicit image sizes to avoid layout shift, and no JavaScript framework.
+4. **Performance basics.** Self-hosted variable fonts, WebP images (about 400 KB for all images), explicit image sizes to avoid layout shift, and no JavaScript framework.
 5. **Deploy.** Zip upload to Amplify Hosting, then a check that the live URL and images return HTTP 200.
 
 ## What I learned
